@@ -1,0 +1,23 @@
+# Harbor JobConfig for CodeBench (15 coding tasks)
+# Docs / schema: .\.venv\Scripts\harbor.exe job schema
+# Run after setting your API key in `.env`:
+#   .\.venv\Scripts\harbor.exe run --config benchmark.yaml --env-file .env
+
+job_name: codebench-eval
+jobs_dir: jobs
+n_attempts: 1
+n_concurrent_trials: 4
+
+environment:
+  type: docker
+  force_build: false
+  delete: true
+
+agents:
+  - name: terminus-2
+    model_name: openai/gpt-4o-mini
+    kwargs:
+      max_turns: 20
+
+datasets:
+  - path: tasks

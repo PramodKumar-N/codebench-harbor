@@ -1,3 +1,13 @@
 #!/bin/bash
+set -e
 
-# Use this file to solve the task.
+cat > /app/app.py << 'SOLUTION_EOF'
+def find_max(nums):
+    if not nums:
+        return None
+    biggest = nums[0]
+    for n in nums:
+        if n > biggest:
+            biggest = n
+    return biggest
+SOLUTION_EOF

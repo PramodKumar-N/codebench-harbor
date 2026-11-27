@@ -1,0 +1,77 @@
+[
+  {
+    "id": "fix-find-max",
+    "type": "Logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fix-remove-duplicates",
+    "type": "Logic",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fix-merge-intervals",
+    "type": "Logic",
+    "difficulty": "hard"
+  },
+  {
+    "id": "flask-create-user",
+    "type": "Flask",
+    "difficulty": "easy"
+  },
+  {
+    "id": "flask-search",
+    "type": "Flask",
+    "difficulty": "medium"
+  },
+  {
+    "id": "flask-pagination",
+    "type": "Flask",
+    "difficulty": "medium"
+  },
+  {
+    "id": "flask-api-key",
+    "type": "Flask",
+    "difficulty": "medium"
+  },
+  {
+    "id": "flask-books-crud",
+    "type": "Flask",
+    "difficulty": "hard"
+  },
+  {
+    "id": "sql-big-spenders",
+    "type": "SQL",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sql-orders-per-city",
+    "type": "SQL",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sql-no-orders",
+    "type": "SQL",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sql-top-spender-per-city",
+    "type": "SQL",
+    "difficulty": "hard"
+  },
+  {
+    "id": "data-trim-and-dedupe",
+    "type": "Data cleaning",
+    "difficulty": "easy"
+  },
+  {
+    "id": "data-normalize-fields",
+    "type": "Data cleaning",
+    "difficulty": "medium"
+  },
+  {
+    "id": "data-merge-customers",
+    "type": "Data cleaning",
+    "difficulty": "hard"
+  }
+]

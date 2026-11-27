@@ -1,5 +1,4 @@
-FROM ubuntu:24.04
-
-# Install or copy over any environment dependencies here.
-
+FROM python:3.12-slim
 WORKDIR /app
+RUN pip install --no-cache-dir pytest==9.2.0
+COPY app.py /app/
